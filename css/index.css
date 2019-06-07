@@ -171,7 +171,7 @@ p {
   text-align: center;
   padding: 1% 10%;
   background-color: #f4f4f4;
-  width: 65%;
+  width: 70%;
 }
 .nav-container nav h1 {
   font-size: 4rem;
@@ -246,8 +246,8 @@ footer {
   height: 35px;
   background-color: #22283A;
   color: #F6F7F8;
-  border-radius: 7px;
-  font-size: 1.7rem;
+  border-radius: 5px;
+  font-size: 1.8rem;
 }
 .home .walk .walk-img {
   width: 46%;
