@@ -59,6 +59,11 @@
 
       .btn {
         .signUpBtn(100px, 35px, 1.8rem);
+        }
+      .btn:hover {
+        background-color: @porcelain;
+        color: @btn-bg-color;
+        border: 1px solid @btn-bg-color;
       }
     }
 
@@ -77,6 +82,12 @@
 
 //mobile
 @media (@phone) {
+
+  nav {
+    width: 100%;
+    background-color: red;
+  }
+
   .sky, .launch {
     display: none;
   }
