@@ -1,1 +1,29 @@
 // Navigation code here
+.nav-container {
+    .flexJustifyCenter();
+
+    nav {
+        .flexJustifyCenter();
+        flex-direction: column;
+        // display: inline-block;
+        text-align: center;
+        padding: 1% 10%;
+        background-color: @nav-background;
+        width: 65%;
+
+        h1 {
+            font-size: @headerOne;
+        }
+
+        .nav-links {
+            .flexJustifySB();
+            padding: 4% 10% 0 10%;
+
+            a {
+                text-decoration: none;
+                color: @ebony-clay;
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
